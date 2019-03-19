@@ -1,0 +1,424 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.*?>
+<?import javafx.geometry.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="400.0" prefWidth="500.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <BorderPane prefHeight="200.0" prefWidth="200.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+         <center>
+            <TabPane prefHeight="200.0" prefWidth="200.0" tabClosingPolicy="UNAVAILABLE" BorderPane.alignment="CENTER">
+              <tabs>
+                <Tab text="Top Toolbar">
+                  <content>
+                    <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
+                           <children>
+                              <ScrollPane layoutX="40.0" layoutY="-259.0" prefHeight="714.0" prefWidth="500.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+                                 <content>
+                                    <VBox spacing="10.0">
+                                       <children>
+                                          <ImageView fx:id="topToolbarIV" fitWidth="460.0" pickOnBounds="true" preserveRatio="true" />
+                                          <VBox>
+                                             <children>
+                                                <Label text="There are four main components to the top Toolbar: The Tool area, the Font area, the" />
+                                                <Label text="Line Width area and the Color area." />
+                                             </children>
+                                          </VBox>
+                                          <Separator prefWidth="200.0" />
+                                          <Label text="Tool Area">
+                                             <font>
+                                                <Font size="18.0" />
+                                             </font>
+                                          </Label>
+                                          <VBox>
+                                             <children>
+                                                <Label text="Here, you can select which tool you want to use. You can currently pick between the" />
+                                                <Label text="Brush, Text, Select, and Color Picker tools. More information on each of these can be" />
+                                                <Label text="found under the &quot;Tools&quot; tab." />
+                                             </children>
+                                          </VBox>
+                                          <Separator prefWidth="200.0" />
+                                          <Label text="Font Area">
+                                             <font>
+                                                <Font size="18.0" />
+                                             </font>
+                                          </Label>
+                                          <VBox>
+                                             <children>
+                                                <Label text="In the Font Area there are 3 subareas: Font, Font Size, and Font Style. The subarea" />
+                                                <Label text="labeled &quot;Font&quot; allows the you to choose from any font on the system. The Font Size" />
+                                                <Label text="subarea is used to choose the size of the font. Finally, the Font Style subarea is used" />
+                                                <Label text="to toggle the Bold and Italic properties." />
+                                             </children>
+                                          </VBox>
+                                          <VBox>
+                                             <children>
+                                                <Label text="All three subareas are used to control the Text tool, which you can read more about" />
+                                                <Label text="under the Tool and Text tab." />
+                                             </children>
+                                          </VBox>
+                                          <Separator prefWidth="200.0" />
+                                          <Label text="Line Width Area">
+                                             <font>
+                                                <Font size="18.0" />
+                                             </font>
+                                          </Label>
+                                          <VBox>
+                                             <children>
+                                                <Label text="The Line Width area contains a choice box to allow you to choose the line width for the" />
+                                                <Label text="Brush tool. More information on the Brush tool can be found under the tool tab." />
+                                             </children>
+                                          </VBox>
+                                          <Separator prefWidth="200.0" />
+                                          <Label text="Color Area">
+                                             <font>
+                                                <Font size="18.0" />
+                                             </font>
+                                          </Label>
+                                          <VBox>
+                                             <children>
+                                                <Label text="The color area contains a color picker, from which you can choose from a large" />
+                                                <Label text="selection of pre-made colors, or you can create your own. Any custom color you make" />
+                                                <Label text="can be saved and picked later from the same menu." />
+                                             </children>
+                                          </VBox>
+                                       </children>
+                                       <padding>
+                                          <Insets bottom="10.0" left="15.0" right="15.0" top="10.0" />
+                                       </padding>
+                                    </VBox>
+                                 </content>
+                              </ScrollPane>
+                           </children>
+                        </AnchorPane>
+                  </content>
+                </Tab>
+                <Tab text="Buttom Toolbar">
+                  <content>
+                    <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
+                           <children>
+                              <ScrollPane layoutX="94.0" layoutY="-153.0" prefHeight="456.0" prefWidth="500.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+                                 <content>
+                                    <VBox spacing="10.0">
+                                       <children>
+                                          <ImageView fx:id="bottomToolbarIV" fitWidth="460.0" pickOnBounds="true" preserveRatio="true" />
+                                          <VBox>
+                                             <children>
+                                                <Label text="The bottom bar has three notable parts. First, on the far left, the file name field." />
+                                                <Label text="Second, the dimensions field. Finally, the zoom slider." />
+                                             </children>
+                                          </VBox>
+                                          <Separator prefWidth="200.0" />
+                                          <Label text="File Name Field">
+                                             <font>
+                                                <Font size="18.0" />
+                                             </font>
+                                          </Label>
+                                          <VBox>
+                                             <children>
+                                                <Label text="On the far left of the bottom Toolbar, is the file name field. When you open a file, the" />
+                                                <Label text="name of that same file will show up there. Similarly, if you save a new file, whatever" />
+                                                <Label text="you decided to name it will show up there, after the save is complete." />
+                                             </children>
+                                          </VBox>
+                                          <Separator prefWidth="200.0" />
+                                          <Label text="Dimensions Field">
+                                             <font>
+                                                <Font size="18.0" />
+                                             </font>
+                                          </Label>
+                                          <VBox>
+                                             <children>
+                                                <Label text="Here, you will see what the current dimensions of the opened file (or new file) are." />
+                                                <Label text="This field only updates when using the resize dialogue or upon opening a new file." />
+                                             </children>
+                                          </VBox>
+                                          <Separator prefWidth="200.0" />
+                                          <Label text="Zoom Slider and Zoom Field">
+                                             <font>
+                                                <Font size="18.0" />
+                                             </font>
+                                          </Label>
+                                          <VBox>
+                                             <children>
+                                                <Label text="On the far right of the bottom Toolbar is the Zoom slider. From here, you are able to" />
+                                                <Label text="drag the slider knob to the right to increase the zoom, and to the left to decrease the" />
+                                                <Label text="zoom. The current zoom level can been seen directly to the left of the slider itself." />
+                                             </children>
+                                          </VBox>
+                                       </children>
+                                       <padding>
+                                          <Insets bottom="10.0" left="15.0" right="15.0" top="10.0" />
+                                       </padding>
+                                    </VBox>
+                                 </content>
+                              </ScrollPane>
+                           </children>
+                        </AnchorPane>
+                  </content>
+                </Tab>
+                  <Tab text="Tools">
+                    <content>
+                      <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
+                           <children>
+                              <TabPane prefHeight="200.0" prefWidth="200.0" tabClosingPolicy="UNAVAILABLE" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+                                <tabs>
+                                  <Tab text="Brush">
+                                    <content>
+                                      <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
+                                             <children>
+                                                <ScrollPane prefHeight="200.0" prefWidth="200.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+                                                   <content>
+                                                      <VBox spacing="10.0">
+                                                         <children>
+                                                            <Label text="Brush Tool">
+                                                               <font>
+                                                                  <Font size="18.0" />
+                                                               </font>
+                                                            </Label>
+                                                            <ImageView fx:id="brushToolIV" fitWidth="460.0" pickOnBounds="true" preserveRatio="true" />
+                                                            <VBox>
+                                                               <children>
+                                                                  <Label text="The brush tool is the default tool when first starting the application. There are several" />
+                                                                  <Label text="ways of configuring the brush tool to suit your needs. You are able to change both the" />
+                                                                  <Label text="width of the brush as well as the color. More information on these options can be" />
+                                                                  <Label text="found under the Top Toolbar tab." />
+                                                               </children>
+                                                            </VBox>
+                                                         </children>
+                                                         <padding>
+                                                            <Insets bottom="10.0" left="15.0" right="15.0" top="10.0" />
+                                                         </padding>
+                                                      </VBox>
+                                                   </content>
+                                                </ScrollPane>
+                                             </children>
+                                          </AnchorPane>
+                                    </content>
+                                  </Tab>
+                                  <Tab text="Text">
+                                    <content>
+                                      <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
+                                             <children>
+                                                <ScrollPane prefHeight="200.0" prefWidth="200.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+                                                   <content>
+                                                      <VBox spacing="10.0">
+                                                         <padding>
+                                                            <Insets bottom="10.0" left="15.0" right="15.0" top="10.0" />
+                                                         </padding>
+                                                         <children>
+                                                            <Label text="Text Tool">
+                                                               <font>
+                                                                  <Font size="18.0" />
+                                                               </font>
+                                                            </Label>
+                                                            <ImageView fx:id="textToolIV" fitWidth="460.0" pickOnBounds="true" preserveRatio="true" />
+                                                            <VBox>
+                                                               <children>
+                                                                  <Label text="The text tool allows the user to input text and apply it to the canvas. Here, the font" />
+                                                                  <Label text="controls covered under the Top Toolbar tab apply. Note that the color picker also" />
+                                                                  <Label text="applies to the text." />
+                                                               </children>
+                                                            </VBox>
+                                                            <VBox>
+                                                               <children>
+                                                                  <Label text="After you type the text you want to save to the canvas, simply click outside of the text" />
+                                                                  <Label text="area in order to apply it. If you decide you no longer want to apply any text, you may" />
+                                                                  <Label text="either backspace until the field is blank, or by hitting ESC, which will clear and close the" />
+                                                                  <Label text="text field." />
+                                                               </children>
+                                                            </VBox>
+                                                         </children>
+                                                      </VBox>
+                                                   </content>
+                                                </ScrollPane>
+                                             </children></AnchorPane>
+                                    </content>
+                                  </Tab>
+                                    <Tab text="Select">
+                                      <content>
+                                        <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
+                                             <children>
+                                                <ScrollPane layoutX="84.0" layoutY="-361.0" prefHeight="867.0" prefWidth="500.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+                                                   <content>
+                                                      <VBox spacing="10.0">
+                                                         <padding>
+                                                            <Insets bottom="10.0" left="15.0" right="15.0" top="10.0" />
+                                                         </padding>
+                                                         <children>
+                                                            <Label text="Select Tool">
+                                                               <font>
+                                                                  <Font size="18.0" />
+                                                               </font>
+                                                            </Label>
+                                                            <ImageView fx:id="selectToolIV" fitWidth="460.0" pickOnBounds="true" preserveRatio="true" />
+                                                            <VBox>
+                                                               <children>
+                                                                  <Label text="The select tool allows the you to select a portion of the canvas (or the whole canvas)" />
+                                                                  <Label text="and perform various functions on it such as Cut, Copy, Delete, or Move. Note that the" />
+                                                                  <Label text="Move function can be used along side the other functions of the select tool." />
+                                                               </children>
+                                                            </VBox>
+                                                            <Label text="Each function and associated shortcut (if applicable) is discussed in detail below." />
+                                                            <Separator prefWidth="200.0" />
+                                                            <Label text="Cut">
+                                                               <font>
+                                                                  <Font size="14.0" />
+                                                               </font>
+                                                            </Label>
+                                                            <VBox>
+                                                               <children>
+                                                                  <Label text="After you have selected a portion of the canvas, you can access the cut command" />
+                                                                  <Label text="either by using the combination of Ctrl + X or by selecting the appropriate option from" />
+                                                                  <Label text="the Edit menu on the menu bar at the very top of the window." />
+                                                               </children>
+                                                            </VBox>
+                                                            <VBox>
+                                                               <children>
+                                                                  <Label text="Upon using the Cut command, your selection gets sent to the system's clipboard" />
+                                                                  <Label text="which can either be accessed from inside this application, or within others. Once the" />
+                                                                  <Label text="image is moved to the clipboard, the selection is deleted from the canvas, leaving an" />
+                                                                  <Label text="area of white where you had selected from." />
+                                                               </children>
+                                                            </VBox>
+                                                            <Separator prefWidth="200.0" />
+                                                            <Label text="Copy">
+                                                               <font>
+                                                                  <Font size="14.0" />
+                                                               </font>
+                                                            </Label>
+                                                            <VBox>
+                                                               <children>
+                                                                  <Label text="The Copy command behaves exactly like the Cut command, but with one exception." />
+                                                                  <Label text="The function can be used either through the combination of Ctrl + C or through the" />
+                                                                  <Label text="Copy option under the Edit menu on the menu bar." />
+                                                               </children>
+                                                            </VBox>
+                                                            <VBox>
+                                                               <children>
+                                                                  <Label text="Like the Cut command, the Copy command sends whatever you have selected to the" />
+                                                                  <Label text="system clipboard. However, unlike the Cut command, Copy leaves your selection" />
+                                                                  <Label text="unmodified, allowing you to perform other functions on the same selection, after using" />
+                                                                  <Label text="Copy." />
+                                                               </children>
+                                                            </VBox>
+                                                            <Separator prefWidth="200.0" />
+                                                            <Label text="Delete">
+                                                               <font>
+                                                                  <Font size="14.0" />
+                                                               </font>
+                                                            </Label>
+                                                            <VBox>
+                                                               <children>
+                                                                  <Label text="Using the Delete command after you have selected a portion of the canvas, simply" />
+                                                                  <Label text="deletes that portion, and replaces the area you selected from with white space. Delete" />
+                                                                  <Label text="can be accessed either by pressing the Delete key, or by using the Delete option in the" />
+                                                                  <Label text="Edit menu, located on the menu bar at the top of the screen." />
+                                                               </children>
+                                                            </VBox>
+                                                            <Separator prefWidth="200.0" />
+                                                            <Label text="Move">
+                                                               <font>
+                                                                  <Font size="14.0" />
+                                                               </font>
+                                                            </Label>
+                                                            <VBox>
+                                                               <children>
+                                                                  <Label text="The Move function has no associated key combination or menu option. Instead, you" />
+                                                                  <Label text="can use Move by clicking and then dragging on a selected area. Once you are satisfied" />
+                                                                  <Label text="with the selected portion's new location, you can click outside of the selected area to" />
+                                                                  <Label text="apply the selection to the canvas." />
+                                                               </children>
+                                                            </VBox>
+                                                            <Label text="When performing a Move, you are free to use the other commands." />
+                                                         </children>
+                                                      </VBox>
+                                                   </content>
+                                                </ScrollPane>
+                                             </children></AnchorPane>
+                                      </content>
+                                    </Tab>
+                                    <Tab text="Color Picker">
+                                      <content>
+                                        <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
+                                             <children>
+                                                <ScrollPane prefHeight="200.0" prefWidth="200.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+                                                   <content>
+                                                      <VBox spacing="10.0">
+                                                         <children>
+                                                            <Label text="Color Picker Tool">
+                                                               <font>
+                                                                  <Font size="18.0" />
+                                                               </font>
+                                                            </Label>
+                                                            <VBox>
+                                                               <children>
+                                                                  <Label text="With the color picker tool, you can click anywhere on the canvas and whatever the color" />
+                                                                  <Label text="of the pixel is at the location you clicked on is set to the current color. From there, you" />
+                                                                  <Label text="can use the text or brush tools and either will use the color selected from the color" />
+                                                                  <Label text="picker tool." />
+                                                               </children>
+                                                            </VBox>
+                                                         </children>
+                                                         <padding>
+                                                            <Insets bottom="10.0" left="15.0" right="15.0" top="10.0" />
+                                                         </padding>
+                                                      </VBox>
+                                                   </content>
+                                                </ScrollPane>
+                                             </children></AnchorPane>
+                                      </content>
+                                    </Tab>
+                                </tabs>
+                              </TabPane>
+                           </children>
+                        </AnchorPane>
+                    </content>
+                  </Tab>
+              </tabs>
+            </TabPane>
+         </center>
+         <top>
+            <ToolBar prefHeight="40.0" BorderPane.alignment="CENTER">
+               <items>
+                  <VBox alignment="CENTER_LEFT" prefWidth="190.0">
+                     <children>
+                        <Label text="Help">
+                           <font>
+                              <Font size="18.0" />
+                           </font>
+                        </Label>
+                     </children>
+                     <padding>
+                        <Insets left="10.0" />
+                     </padding>
+                  </VBox>
+                  <VBox alignment="CENTER_RIGHT">
+                     <padding>
+                        <Insets right="10.0" />
+                     </padding>
+                     <children>
+                        <Label text="Click on one of the tabs below for more information" />
+                     </children>
+                  </VBox>
+               </items>
+            </ToolBar>
+         </top>
+         <bottom>
+            <ToolBar nodeOrientation="RIGHT_TO_LEFT" prefHeight="40.0" prefWidth="200.0">
+              <items>
+                <Button fx:id="closeButton" mnemonicParsing="false" prefWidth="55.0" text="Close" />
+              </items>
+               <padding>
+                  <Insets left="20.0" />
+               </padding>
+            </ToolBar>
+         </bottom>
+      </BorderPane>
+   </children>
+</AnchorPane>
